@@ -26,7 +26,7 @@ class Events:
 
 def run_app():
     aplication = Events()
-    return aplication.app
+    return aplication.socketio
 if __name__ == '__main__':
     aplication = Events()
     aplication.runner()
